@@ -103,16 +103,20 @@ nav{
           }
 
           .menu{
-            display: block;
+
+            display:block;
             margin-left: 210px;
             background:rgb(197, 195, 195);
             border-radius: 10px;
             padding-top: 6px;
-            padding: 5px;
+            padding-left: 10px;
             font-size: 7px;
             width: 60px;
             height: 5vh;
             margin-top: 3%;
+
+
+            
           }
       
          

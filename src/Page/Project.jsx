@@ -4,7 +4,7 @@ import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
 import More from '../Component/More'
-
+import {Link} from 'react-router-dom'
 const Skill = () => {
   
 
@@ -34,7 +34,7 @@ const Skill = () => {
             <h4  className='h44 slide-hover'> <a href="https://github.com/onuohajaphet4-ui/Project-work" style={{textDecoration:'none' , color:'inherit'}}>Github</a></h4>
           </div>
 
-          <h4 className='con-h4 slide-hover'>Project Details</h4>
+          <h4 className='con-h4 slide-hover'><Link to='/zynox' style={{textDecoration:'none' , color:'inherit'}}>Project Details</Link></h4>
         </div>
       </div>
 
@@ -58,7 +58,7 @@ const Skill = () => {
             <h4  className='h44 slide-hover'><a href="https://github.com/onuohajaphet4-ui/J-THRIFT-STORE" style={{textDecoration:'none' , color:'inherit'}}>Github</a></h4>
           </div>
 
-          <h4 className='con-h4 slide-hover'>Project Details</h4>
+          <h4 className='con-h4 slide-hover'><Link to='/zynox' style={{textDecoration:'none' , color:'inherit'}}>Project Details</Link></h4>
         </div>
       </div>
 
@@ -84,7 +84,7 @@ const Skill = () => {
             <h4  className='h44 slide-hover'><a href="https://github.com/onuohajaphet4-ui/ProRoz-Web-Development" style={{textDecoration:'none' , color:'inherit'}}>Github</a></h4>
           </div>
 
-          <h4 className='con-h4 slide-hover'>Project Details</h4>
+          <h4 className='con-h4 slide-hover'> <Link to='/zynox' style={{textDecoration:'none' , color:'inherit'}}>Project Details</Link></h4>
         </div>
       </div>
 

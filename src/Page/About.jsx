@@ -33,7 +33,7 @@ export default function AccordionExpandIcon() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
-           Hi, I’m Onuoha Japhet a Professonal, entry-level frontend web developer currantly learning Backend.
+           Hi, I’m Onuoha Japhet a Professonal, entry-level frontend web developer currently learning Backend.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -118,7 +118,7 @@ export default function AccordionExpandIcon() {
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
             My goal is to grow into a well-rounded frontend engineer and contribute to impactful projects that make a difference.
-             withn the main intetion of interating tech into  the daily life of every Nigerian or Even African at large 
+             withn the main intetion of integrating tech into  the daily life of every Nigerian or Even African at large 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -135,7 +135,7 @@ export default function AccordionExpandIcon() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
-            Outside of tech, I enjoy creating Swag and the fashion world — which is what inspired me to Create  J-Thrit Store . I also have a passion for Movies and Arts.
+            Outside of tech, I enjoy creating Swags and the fashion world — which is what inspired me to Create  J-Thrit Store . I also have a passion for Movies and Arts.
           </Typography>
         </AccordionDetails>
       </Accordion>

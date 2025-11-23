@@ -143,9 +143,18 @@
 
     .view{
        gap: 1px;
+
         p{
             padding-top: 2px;
         }
+
+        
     }
+
+    .conh4{
+            margin-left: 7px;
+        }
     }
+
+    
 }

@@ -11,6 +11,7 @@ import About from './Page/About'
 import Contact from './Page/Contact'
 import Skill from './Page/Project'
 import Skil from './Page/Skill'
+import Zynox from './Page/Zynox'
 import Foot from './Component/Footer'
 
 const App = () => {
@@ -60,6 +61,7 @@ const App = () => {
                <Route path='/contact' element={<Contact/>} />
                <Route path='/project' element={<Skill/>} />
                <Route path='/skill' element={<Skil/>} />
+               <Route path='/zynox' element={<Zynox/>} />
             </Routes>
 
 
