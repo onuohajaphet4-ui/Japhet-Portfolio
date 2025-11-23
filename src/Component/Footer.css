@@ -1,0 +1,31 @@
+.foot{
+    background-color: black;
+    height: 18vh;
+     margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 20px;
+
+    h4{
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+}
+
+.foot-icon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+@media(max-width:600px){
+    .foot{
+    margin: 0%;
+     border: none;
+     padding-top: 4%;
+     margin-top: 40px;
+    }
+}

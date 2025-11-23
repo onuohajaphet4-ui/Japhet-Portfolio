@@ -1,0 +1,151 @@
+.more{
+    width: 100%;
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100% , 1fr));
+    gap: 20px;
+   
+    .con-flex{
+        display: flex;
+
+        justify-content: space-between;
+
+        h2{
+            font-size: 35px;
+        }
+
+        button{
+            background-color: black;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+    }
+
+    .conflex{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        gap: 20px;
+        justify-content: center;
+
+         h4{
+            background-color: black;
+            color: white;
+            width: 40%;
+            padding: 2%;
+        }
+    }
+
+    .conimg{
+         border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(190, 185, 185);
+  
+
+    
+    }
+
+    .conh4{
+         
+        border: #969292 1px solid;
+            border-radius: 10px;
+            width: 95%;
+            padding: 1%;
+            margin-top: 5%;
+            margin-left: 20px;
+            text-align: center;
+            font-weight: bold;
+    
+    }
+     .conh4.slide-hover::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: black;
+      color: white;
+    z-index: -1;
+    transition: transform 0.4s ease;
+    transform: translateX(-100%);
+}
+
+.conh4.conh4.slide-hover:hover::before{
+    transform: translateX(0%);
+}
+
+.conh4.slide-hover:host-context{
+    color: white;
+}
+
+.conh4.slide-hover{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.view{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+
+    p{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+         font-weight: 600;
+         padding-top: 10px;
+    }
+
+    .h49{ 
+        border: #969292 1px solid;
+            border-radius: 10px;
+            width: 25%;
+            padding: 1%;
+            margin-left: 20px;
+            text-align: center;
+            font-weight: bold;
+    
+    }
+    .h49.slide-hover::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: black;
+      color: white;
+    z-index: -1;
+    transition: transform 0.4s ease;
+    transform: translateX(-100%);
+}
+
+.h49 .h49 .slide-hover:hover::before{
+    transform: translateX(0%);
+}
+
+.h49.slide-hover:host-context{
+    color: white;
+}
+
+.h49.slide-hover{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+ 
+}
+}
+    
+
+
+@media(max-width:600px){
+    .conimg{flex-direction: column;}
+
+   .more{
+
+    .view{
+       gap: 1px;
+        p{
+            padding-top: 2px;
+        }
+    }
+    }
+}

@@ -1,0 +1,172 @@
+.project{
+     margin-left: 13%;
+    margin-right: 13%;
+    border-left: 1px solid #969292;
+    border-right: 1px solid #969292;
+    padding-top: 45px;
+    padding: 1%;
+   
+    
+
+    h2{
+        text-align: center;
+        font-size: 35px;
+     }
+}
+
+.con-img{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(190, 185, 185);
+  
+
+    img{
+        width:450px ;
+        height:50vh; 
+        border-radius:10px
+    }
+}
+.contact-card{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+    
+}
+.con-info{
+    width: 450px;
+    
+    padding-top: 2%;
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 7%;
+    }
+
+    .conflex1{
+          padding-top: 6%;
+        display: flex;
+        gap: 20px;
+        h4{
+            background-color: black;
+            color: white;
+            width: 45%;
+            padding: 3%;
+        }
+    }
+
+    .conflex2{
+        display: flex;
+          gap: 20px;
+
+
+          .h44{
+             border: #969292 1px solid;
+             border-radius: 10px;
+             width: 45%;
+            padding: 3%;
+            margin-top: 5%;
+          }
+
+          .h44.slide-hover::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: black;
+      color: white;
+    z-index: -1;
+    transition: transform 0.4s ease;
+    transform: translateX(-100%);
+}
+
+.h44.h44.slide-hover:hover::before{
+    transform: translateX(0%);
+}
+
+.h44.slide-hover:host-context{
+    color: white;
+}
+
+.h44.slide-hover{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+}
+
+
+
+    .con-h4{
+        border: #969292 1px solid;
+            border-radius: 10px;
+            width: 95%;
+            padding: 3%;
+            margin-top: 5%;
+            font-weight: bold;
+    }
+
+    .con-h4.slide-hover::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: black;
+      color: white;
+    z-index: -1;
+    transition: transform 0.4s ease;
+    transform: translateX(-100%);
+}
+
+.con-h4.con-h4.slide-hover:hover::before{
+    transform: translateX(0%);
+}
+
+.con-h4.slide-hover:host-context{
+    color: white;
+}
+
+.con-h4.slide-hover{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+
+
+}
+@media(max-width:600px){
+    .project{
+        margin-left:3%;
+    margin-right: 3%;
+     border: none;
+     padding-top: 4%;
+     
+    }
+
+    .con-img{
+        width: 90%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .con-info{
+        margin-left: 20px;
+    }
+}
