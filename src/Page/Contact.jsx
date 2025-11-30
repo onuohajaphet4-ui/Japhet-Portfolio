@@ -9,6 +9,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault() ;
+    setLoading(true)
 
     emailjs 
     .sendForm(
@@ -54,12 +55,13 @@ const Contact = () => {
        
       <textarea name="message" id="" placeholder='message' required></textarea>
 
-      <button>{loading ? (
-            <CircularProgress size={24} sx={{ color: "#fff" }} />
-          ) : (
-            "Submitt"
-          )}</button>
-
+      <button className='form-butt'  type='submit'>
+                        {loading ? (
+                                   <CircularProgress size={24} sx={{ color: "#fff" }} />
+                                  ) : (
+                                    "Submitt"
+                                  )}
+                      </button>
    </form>
      </div>
     </div>

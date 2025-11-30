@@ -2,7 +2,7 @@ import React  from 'react'
 import './Project.css'
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
-import project3 from '../assets/project3.png'
+import project3 from '../assets/yati.png'
 import More from '../Component/More'
 import {Link} from 'react-router-dom'
 const Skill = () => {
@@ -71,8 +71,8 @@ const Skill = () => {
         </div>
 
         <div className="con-info">
-          <h1 style={{color:'coral'}}>ProRoz </h1>
-          <p>Web Development Learning Courses</p>
+          <h1 >Yati Barbershop </h1>
+          <p>E-shop Barbershop</p>
 
           <div className="conflex1">
              <h4>React</h4>
@@ -80,8 +80,8 @@ const Skill = () => {
           </div>
 
           <div className="conflex2">
-            <h4 className='h44 slide-hover'><a href="https://pro-roz-web-development.vercel.app/" style={{textDecoration:'none' , color:'inherit'}}>Live</a></h4>
-            <h4  className='h44 slide-hover'><a href="https://github.com/onuohajaphet4-ui/ProRoz-Web-Development" style={{textDecoration:'none' , color:'inherit'}}>Github</a></h4>
+            <h4 className='h44 slide-hover'><a href="https://work-one-phi.vercel.app/" style={{textDecoration:'none' , color:'inherit'}}>Live</a></h4>
+            <h4  className='h44 slide-hover'><a href="https://github.com/onuohajaphet4-ui/work" style={{textDecoration:'none' , color:'inherit'}}>Github</a></h4>
           </div>
 
           <h4 className='con-h4 slide-hover'> <Link to='/zynox' style={{textDecoration:'none' , color:'inherit'}}>Project Details</Link></h4>

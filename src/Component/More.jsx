@@ -1,4 +1,5 @@
 import React ,{useState}from 'react'
+import project3 from '../assets/project3.png'
 import project4 from '../assets/project.png'
 import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
@@ -7,11 +8,17 @@ import './More.css'
 const More = () => {
     const more =[
          {
+           img: project3,
+           title: 'react',
+           text: 'taiwind',
+           live:'Live ',
+           a: 'https://pro-roz-web-development.vercel.app/'
+         },{
            img: project4,
            title: 'react',
            text: 'taiwind',
            live:'Live ',
-           a: 'https://j-thrift-swag-store-e-shop22.vercel.app/'
+           a: '#'
          },
           {
            img: project5,
