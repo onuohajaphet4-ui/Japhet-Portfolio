@@ -71,7 +71,7 @@ const Skill = () => {
         </div>
 
         <div className="con-info">
-          <h1 >Yati Barbershop </h1>
+          <h1 >ERIC Barbershop </h1>
           <p>E-shop Barbershop</p>
 
           <div className="conflex1">

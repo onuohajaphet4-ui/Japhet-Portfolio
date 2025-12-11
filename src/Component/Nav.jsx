@@ -26,7 +26,7 @@ const Nav = () => {
 
        <Link to='/contact'  style={{color:'inherit'}}>  <IoCallOutline size={33}/></Link>
         
-         <IoDocumentTextOutline size={33}/>
+       <a href="https://eu.docworkspace.com/d/sID-j0evRAqae6skG" style={{color:'inherit'}}><IoDocumentTextOutline size={33}/></a>
     </div>
 
        {/* mobile ham */}
@@ -50,7 +50,7 @@ const Nav = () => {
 
         <Link to='/contact'  style={{color:'inherit'}}><IoCallOutline size={33}  onClick={() =>setOpen(false)} /></Link>
         
-        <IoDocumentTextOutline size={30}  onClick={() =>setOpen(false)} />
+         <a href="https://eu.docworkspace.com/d/sID-j0evRAqae6skG" style={{color:'inherit'}}><IoDocumentTextOutline size={30}  onClick={() =>setOpen(false)} /></a>
 
         
 

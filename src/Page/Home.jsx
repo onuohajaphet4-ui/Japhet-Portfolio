@@ -26,7 +26,7 @@ const Home = () => {
 
        <div className="wi">
         < div className='wi-h1 slide-hover'><h1><Link to='/contact' style={{color:'inherit', textDecoration:'none'}}>Contact Me</Link></h1></div>
-         <div className='wi-h1 slide-hover'><h1><a href='' style={{color:'inherit', textDecoration:'none'}}>Download Cv</a></h1></div>
+         <div className='wi-h1 slide-hover'><h1><a href='https://eu.docworkspace.com/d/sID-j0evRAqae6skG' style={{color:'inherit', textDecoration:'none'}}>Download Cv</a></h1></div>
          
        </div>
      </div>
