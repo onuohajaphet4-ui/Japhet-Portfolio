@@ -19,9 +19,7 @@ export default function AccordionExpandIcon() {
       </h4>
 
       <p>
-        I turn UI ideas into real, working React projects.Fast learner. Pixel-perfection lover.
-       If it slides, fades, animates, or transforms — I’m interested 😂.
-      I enjoy creating smooth, responsive and interactive user experiences that feel modern and alive.
+         A full-stack developer building modern web apps with React and scalable backend systems. I focus on clean code, performance, and seamless user experiences.
       </p>
       <Accordion  style={{borderRadius:'10px' , borderBottom:'1px white solid'}}>
         <AccordionSummary
@@ -33,7 +31,7 @@ export default function AccordionExpandIcon() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
-           Hi, I’m Onuoha Japhet a Professonal, entry-level frontend web developer currently learning Backend.
+           Hi, I’m Onuoha Japhet a Professonal, full stack software developer.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -49,7 +47,7 @@ export default function AccordionExpandIcon() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
-            I’ve been on my tech journey for about 3-4months now, and I’ve been documenting it online for 100 days.
+            I’ve been on my tech journey for about 1year+ now, and I’ve been documenting it online for 400 days+.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -66,7 +64,7 @@ export default function AccordionExpandIcon() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
-            I design and develop responsive, modern web interfaces using HTML, CSS, JavaScript, Tailwind CSS,  Git, GitHub, React, and Next.js.
+            I design and develop responsive, modern web interfaces using HTML, CSS, JavaScript, Tailwind CSS, Mongodb, Express, Node.js, GitHub, React, and Next.js.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -83,8 +81,7 @@ export default function AccordionExpandIcon() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
-            I’m inspired by solving problems with code and creating sleek, interactive designs that people enjoy using
-          </Typography>
+           I enjoy solving real problems by building clean, scalable full-stack applications that are both functional and user-friendly.          </Typography>
         </AccordionDetails>
       </Accordion>
 
@@ -100,7 +97,7 @@ export default function AccordionExpandIcon() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
-            I’m currently diving deeper into React and exploring Next.js for full-stack development.
+          Currently deepening my full-stack skills with React, backend development, APIs, and system design.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -117,7 +114,7 @@ export default function AccordionExpandIcon() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{fontSize:'17px'}}>
-            My goal is to grow into a well-rounded frontend engineer and contribute to impactful projects that make a difference.
+            My goal is to grow into a well-rounded Fullstack Developer and contribute to impactful projects that make a difference.
              withn the main intetion of integrating tech into  the daily life of every Nigerian or Even African at large 
           </Typography>
         </AccordionDetails>

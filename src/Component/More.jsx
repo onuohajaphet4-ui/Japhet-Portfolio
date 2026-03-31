@@ -3,22 +3,24 @@ import project3 from '../assets/project3.png'
 import project4 from '../assets/project.png'
 import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
+import project2 from '../assets/project2.png'
 import './More.css'
 
 const More = () => {
     const more =[
+      {
+           img: project2,
+           title: 'react',
+           text: 'taiwind',
+           live:'Live ',
+           a: 'https://j-thrift-store.vercel.app/'
+         },
          {
            img: project3,
            title: 'react',
            text: 'taiwind',
            live:'Live ',
            a: 'https://pro-roz-web-development.vercel.app/'
-         },{
-           img: project4,
-           title: 'react',
-           text: 'taiwind',
-           live:'Live ',
-           a: '#'
          },
           {
            img: project5,

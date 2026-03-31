@@ -7,8 +7,8 @@ const Home = () => {
      <h1 className='home-h1'>✨ Hi, I’m Onuoha Japhet.</h1>
 
      <p className='home-p'>
-      A self-taught frontend web developer 💻 
-      passionate about transforming concepts 💡 into sleek, interactive designs 🎨⚡
+      A self-taught Fullstack Software developer 💻 
+      passionate about transforming concepts 💡 into sleek, interactive designs/full-stack applications 🎨⚡
      </p>
 
      <div className="home-input">
