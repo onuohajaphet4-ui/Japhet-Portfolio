@@ -3,6 +3,7 @@ import './Project.css'
 import project1 from '../assets/project1.png'
 import project7 from '../assets/project7.png'
 import project3 from '../assets/yati.png'
+import pastry from '../assets/pastry.jpg'
 import More from '../Component/More'
 import {Link} from 'react-router-dom'
 const Skill = () => {
@@ -14,6 +15,34 @@ const Skill = () => {
       <h2>
         Projects
       </h2>
+
+      <div className="contact-card">
+        <div className="con-img">
+        <img src={pastry} alt="" />
+        </div>
+
+        <div className="con-info">
+          <h1>QUEENDY PASTRY</h1>
+          <p>Online Pastry Store</p>
+
+          <div className="conflex1">
+             <h4>React</h4>
+             <h4>Tailwind Css</h4> 
+          </div>
+
+           <div className="conflex1">
+             <h4>Express</h4>
+             <h4>MongoDb</h4>
+          </div>
+
+          <div className="conflex2">
+            <h4 className='h44 slide-hover'><a href="https://queeny-pastry.vercel.app/" style={{textDecoration:'none' , color:'inherit'}}>Live</a></h4>
+            <h4  className='h44 slide-hover'><a href="https://github.com/onuohajaphet4-ui/Queeny-Pastry-frontend-" style={{textDecoration:'none' , color:'inherit'}}>Github</a></h4>
+          </div>
+
+          <h4 className='con-h4 slide-hover'><Link to='/zynox' style={{textDecoration:'none' , color:'inherit'}}>Project Details</Link></h4>
+        </div>
+      </div>
 
       <div className="contact-card">
         <div className="con-img">
